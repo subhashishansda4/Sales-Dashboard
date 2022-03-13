@@ -75,9 +75,9 @@ dimensions table - customers, products, markets, date\\
     
 ## Results
 ![dash 1](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/dash%201.PNG?raw=true) \
-![dash 2](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/dash%202.PNG?raw=true) \
-![dash 3](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/dash%203.PNG?raw=true) \
-![dash 4](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/dash%204.PNG?raw=true)
+![dash 2](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/dash%202.png?raw=true) \
+![dash 3](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/dash%203.png?raw=true) \
+![dash 4](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/dash%204.png?raw=true)
 
 ## Conclusion
 "**AtliQ Technologies**" will now get a lot of transparency in the business. They will also get lots of insights from the dashboard which will help **Bhavin Patel** make a business decision.
