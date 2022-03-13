@@ -74,10 +74,10 @@ dimensions table - customers, products, markets, date\\
     `SELECT * FROM sales.products WHERE product_type = "";`
     
 ## Results
-![dash 1](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/dash 1.png?raw=true)\
-![dash 2](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/dash 2.png?raw=true)\
-![dash 3](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/dash 3.png?raw=true)\
-![dash 4](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/dash 4.png?raw=true)
+![dash 1](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/dash\ 1.png?raw=true)\
+![dash 2](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/dash\ 2.png?raw=true)\
+![dash 3](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/dash\ 3.png?raw=true)\
+![dash 4](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/dash\ 4.png?raw=true)
 
 ## Conclusion
 "**AtliQ Technologies**" will now get a lot of transparency in the business. They will also get lots of insights from the dashboard which will help **Bhavin Patel** make a business decision.
