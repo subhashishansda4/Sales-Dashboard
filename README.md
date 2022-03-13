@@ -74,7 +74,7 @@ dimensions table - customers, products, markets, date\\
     `SELECT * FROM sales.products WHERE product_type = "";`
     
 ## Results
-![dash 1](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/dash%201.PNG?raw=true) \
+![dash 1](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/dash%201.png?raw=true) \
 ![dash 2](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/dash%202.png?raw=true) \
 ![dash 3](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/dash%203.png?raw=true) \
 ![dash 4](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/dash%204.png?raw=true)
