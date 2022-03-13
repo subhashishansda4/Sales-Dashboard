@@ -16,7 +16,7 @@ And regional offices in different states of India
 What AtliQ Technologies need are **Sales Insights** and a **Data Visualization Dashboard** taking in real time transactional data. That way the company can see insights from the data on the go and will help them make better business decisions.
 
 ## Process
-### AIMS' grid & Project Planning
+#### AIMS' grid & Project Planning
 1. Purpose
     To unlock sales insights that are not visible before, for sales team & decision support. Also to automate them to reduce manual time spent in data gathering.
 2. Stakeholders
@@ -32,38 +32,38 @@ What AtliQ Technologies need are **Sales Insights** and a **Data Visualization D
     * Sales team able to take better decisions and improve 10% of cost savings of total spend
     * Sales Analyst stop data gathering manually in order to save 20% of their business time and reinvest it
 
-### Pipeline
+#### Pipeline
 ![Goku](https://www.google.com/url?sa=i&url=)
 
-### Data Analysis
-<u>Show total number of transactions</u>
+#### Data Analysis
+* Show total number of transactions
 SELECT COUNT(*) FROM sales.transactions;
 
-<u>Show sum of total transactions performed in Ahmedabad</u>
+* Show sum of total transactions performed in Ahmedabad
 SELECT COUNT(*) FROM sales.transactions WHERE market_code = "Mark003";
 
-<u>Show transactions with USD</u>
+* Show transactions with USD
 SELECT * from sales.transactions WHERE currency = "USD";
 
-<u>Show total revenue in year 2020</u>
+* Show total revenue in year 2020
 SELECT SUM(sales.transactions.sales_amount)
 FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date = sales.date.date
 WHERE sales.date.year = 2020;
 
-<u>Show total revenue in Ahmedabad,2020</u>
+* Show total revenue in Ahmedabad,2020
 SELECT SUM(sales.transactions.sales_amount) FROM sales.transactions INNER JOIN sales.date ON sales.transactions.order_date = sales.date.date
 WHERE sales.date.year = 2020 AND sales.transactions.market_code = "Mark003";
 
-<u>Show distinct products sold in Ahmedabad</u>
+* Show distinct products sold in Ahmedabad
 SELECT DISTINCT product_code FROM sales.transactions WHERE market_code = "Mark003";
 
-### Data Modelling
+#### Data Modelling
 STAR SCHEMA:
 fact table - transactions
 dimensions table - customers, products, markets, date
 ![Goku](https://www.google.com/url?sa=i&url=)
 
-### Data Cleaning
+#### Data Cleaning
 * markets_name with no zones
     SELECT * FROM sales.markets where sales.zone = "";
 * transactions with null values in sales_amount
