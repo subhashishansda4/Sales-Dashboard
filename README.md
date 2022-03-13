@@ -60,7 +60,7 @@ What AtliQ Technologies need are **Sales Insights** and a **Data Visualization D
 #### Data Modelling
 STAR SCHEMA:\
 fact table - transactions\
-dimensions table - customers, products, markets, date\
+dimensions table - customers, products, markets, date\\
 ![Goku](https://www.google.com/url?sa=i&url=)
 
 #### Data Cleaning
@@ -74,8 +74,10 @@ dimensions table - customers, products, markets, date\
     `SELECT * FROM sales.products WHERE product_type = "";`
     
 ## Results
-![Goku](https://www.google.com/url?sa=i&url=) \
-![Goku](https://www.google.com/url?sa=i&url=)
+![dash 1](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/dash 1.png?raw=true)\
+![dash 2](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/dash 2.png?raw=true)\
+![dash 3](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/dash 3.png?raw=true)\
+![dash 4](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/dash 4.png?raw=true)
 
 ## Conclusion
 "**AtliQ Technologies**" will now get a lot of transparency in the business. They will also get lots of insights from the dashboard which will help **Bhavin Patel** make a business decision.
