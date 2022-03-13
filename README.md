@@ -33,7 +33,7 @@ What AtliQ Technologies need are **Sales Insights** and a **Data Visualization D
     * Sales Analyst stop data gathering manually in order to save 20% of their business time and reinvest it
 
 #### Pipeline
-![Goku](https://www.google.com/url?sa=i&url=)
+![pipeline](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/pipeline.PNG?raw=true)
 
 #### Data Analysis
 * Show total number of transactions\
@@ -60,8 +60,8 @@ What AtliQ Technologies need are **Sales Insights** and a **Data Visualization D
 #### Data Modelling
 STAR SCHEMA:\
 fact table - transactions\
-dimensions table - customers, products, markets, date\\
-![Goku](https://www.google.com/url?sa=i&url=)
+dimensions table - customers, products, markets, date\
+![star schema](https://github.com/subhashishansda4/Sales-Dashboard/blob/main/assets/star%20schema.PNG?raw=true)
 
 #### Data Cleaning
 * markets_name with no zones\
